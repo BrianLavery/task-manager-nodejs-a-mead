@@ -7,7 +7,8 @@
     "start": "node src/index.js",
     "dev": "env-cmd ./config/dev.env nodemon src/index.js",
     "db-linux": "/home/brian/code/apps/mongodb/bin/mongod --dbpath=/home/brian/code/apps/mongodb-data",
-    "db-wsl": "/home/bpl888/code/apps/mongodb/bin/mongod --dbpath=/home/bpl888/code/apps/mongodb-data"
+    "db-wsl": "/home/bpl888/code/apps/mongodb/bin/mongod --dbpath=/home/bpl888/code/apps/mongodb-data",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "env-cmd": "^8.0.2",
+    "jest": "^23.6.0",
     "nodemon": "^1.18.9"
   }
 }
